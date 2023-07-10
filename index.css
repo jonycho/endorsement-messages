@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1B1924;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 320px;
+    margin:50px auto;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.img-logo{
+    max-width: 90px;
+    display: block;
+    margin: auto;
+}
+
+#endorsementInput{
+    background-color: #444059;
+    border: none;
+    width: 100%;
+    border-radius:8px;
+    height: 120px;
+    padding: 12px 15px;
+    font-family: 'Inter', sans-serif;
+    font-size:15px;
+    resize: none;
+    color:white;
+    transition: 0.5s;
+}
+#endorsementInput:focus,.fromTo-container input:focus{
+    box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+    outline: none;
+}
+
+.fromTo-container{
+    display: flex;
+    gap:10px;
+    margin-top:10px;
+}
+
+.fromTo-container input{
+     background-color: #444059;
+    border: none;
+     border-radius:8px;
+      font-family: 'Inter', sans-serif;
+    font-size:15px;
+    height: 40px;
+    padding: 6px 8px;
+    flex:1;
+    width:100px;
+    color:white;
+}
+
+#endorsementBtn{
+    background-color: #28A9F1;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#04131C;
+    font-weight: 700;
+    height: 50px;
+    border-radius: 8px;
+    margin-top:12px;
+    transition: 0.5s;
+}
+#endorsementBtn:hover{
+    background-color: #0C4A6E;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+    color:white;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    margin-top:24px;
+}
+#endorsementMsg{
+    margin-top:20px;
+}
+
+
+
+.msg{
+    color:#1B1924;
+    background-color: white;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size:14px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.msg:hover{
+    background-color: #FEF3C7;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+}
+.nomsg{
+    color:white;
+    text-align: center;
+}
+
+.msg p{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.container-likes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3:hover{
+    color:red !important;
+}
