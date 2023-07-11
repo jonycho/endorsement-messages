@@ -7,10 +7,6 @@ This project is made in HTML, CSS, JavaScript and Firebase. Messages can be publ
 https://endorsement-messages.netlify.app/
 
 ## Screenshots 🖼️
+![Screenshot](https://github.com/jonycho/endorsement-messages/assets/121981717/e235864a-d498-4466-a9a1-fca3a06c59e8)
 
-
-## Live Demo 📱
-
-https://humaya-dulce-de-leche.netlify.app/
-## Screenshots 🖼️
 
